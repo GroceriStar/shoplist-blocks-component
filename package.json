@@ -1,9 +1,9 @@
 {
-  "name": "@groceristar/cards-wrapper",
+  "name": "@groceristar/shoplist-blocks-component",
   "version": "1.0.0",
   "description": "module to use pdf-export feature between projects",
   "main": "lib/index.js",
-  "repository": "https://github.com/GroceriStar/cards-wrapper-component",
+  "repository": "https://github.com/GroceriStar/shoplist-blocks-component",
   "author": "Arthur Tkachenko",
   "license": "MIT",
   "private": false,
@@ -35,7 +35,7 @@
     "rimraf": "^2.6.3"
   },
   "peerDependencies": {
-    "@groceristar/groceristar-fetch": "^1.1.37",
+    "@groceristar/groceristar-fetch": "^1.1.57",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
