@@ -1,24 +1,21 @@
 # shoplist-blocks-component
 
 
-# cards-wrapper-component
 
-This is a separated module, related with recipe-antd repository
-Main goal is to separate development process and have a separated place, where we can develop the logic of default components and then use them into our
+This is a separated module, related with shoplist-template repository
+Main goal is to separate development process and have a separated place, where we can develop the logic of default components and then use them into our project
 
+Our first goal to create a flexible set of components, that will became a shopping list page, that will display our grocery list data.
 
-
-- [ ] stolen code works now
-- [ ] connects to our fetch plugin
-- [ ] connects to fake api
-- [ ] conects to ck api - yeach fix this
-- [ ] separated components
-- [ ] separated and only HOC is connected to antd
-
-- [ ] delete reqwest package
+- [ ] move to this repository all components from https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/Ingredient
+- [ ] should work with our List module, from gs/grocery-component repo
+- [ ] each set of components can have a separated component, that will used only for displaying at Example-like pages.
+Right now we have one Example page at our shoplist-template repo but it's hard to navigate
 
 
-- [ ] create sep repo for storing recipe cards
+
+
+Some of the details about components that we'll have here are described at this task: https://github.com/GroceriStar/react-shopping-list-template/issues/109
 
 
 Showcase is a project where we trying to incorporate two major tasks:
@@ -26,7 +23,9 @@ Showcase is a project where we trying to incorporate two major tasks:
 2. figure out the way about making GL downloable by generating a simple PDF file
 
 
-[![Build Status](https://travis-ci.org/GroceriStar/showcase.svg?branch=master)](https://travis-ci.org/GroceriStar/showcase)
+<!--
+[![Build Status](https://travis-ci.org/GroceriStar/showcase.svg?branch=master)](https://travis-ci.org/GroceriStar/showcase) -->
+
 
 While we're coding it - we also extending the code base of GS, by testing fetch plugin, by moving away basic components, like lists, grocerylist component, etc...
 
@@ -34,7 +33,7 @@ Major goals for showcase is -
 * realize a better way to connect `fetch` with React projects
 * test different plugins that will convert HTML into PDF
 * set up first basic routes for previewing data from grocery lists(sometimes you just want to compare raw data, not at fancy way)
-* test an assuption - Can we separate some react components and import them as npm package
+* test an assumption - Can we separate some react components and import them as npm package
 * show users what data we have - at preview mode
 
 Stretch goals:
