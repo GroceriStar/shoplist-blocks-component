@@ -1,0 +1,1 @@
+# shoplist-blocks-component
