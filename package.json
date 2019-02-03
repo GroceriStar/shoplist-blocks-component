@@ -1,7 +1,7 @@
 {
   "name": "@groceristar/shoplist-blocks-component",
   "version": "1.0.0",
-  "description": "module to use pdf-export feature between projects",
+  "description": "module to use blocks that are part of shoplist between projects",
   "main": "lib/index.js",
   "repository": "https://github.com/GroceriStar/shoplist-blocks-component",
   "author": "Arthur Tkachenko",
