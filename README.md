@@ -1,1 +1,1 @@
-# cards-wrapper-component
+# shoplist-blocks-component
