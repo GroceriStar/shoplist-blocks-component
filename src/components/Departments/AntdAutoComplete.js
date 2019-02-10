@@ -13,7 +13,7 @@ class AntdAutoComplete extends Component {
     this.selected = this.selected.bind(this);
   }
 
-  onChange = value => {
+  onChange(value) {
     let suggestions = [];
     if (value.length > 0) {
       const regex = new RegExp(`^${value}`, 'i');
@@ -22,7 +22,7 @@ class AntdAutoComplete extends Component {
     this.setState({suggestions, text: value});
   }
 
-  selected = (item) => {
+  selected(item) {
     if (this.props.onSelect != undefined){
       this.props.onSelect(item);
     }
