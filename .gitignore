@@ -20,3 +20,4 @@ flow-typed/npm/*
 #lib - uncomment later
 
 #build
+package-lock.json

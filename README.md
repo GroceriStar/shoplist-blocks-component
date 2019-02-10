@@ -16,7 +16,7 @@ Our first goal to create a flexible set of components, that will became a shoppi
 - [ ] replace shortid with uuid
 - [ ] basic clean up for this components
 - [ ] get rid of gs-fetch as part of this code
-- [ ] install all necessary modules from shop-list in order to make everyhing work. like react-dnd
+- [ ] install all necessary modules from shop-list in order to make everyhing work. like react-dnd, antd
 
 - [ ] should work with our List module, from gs/grocery-component repo
 - [ ] each set of components can have a separated component, that will used only for displaying at Example-like pages.
