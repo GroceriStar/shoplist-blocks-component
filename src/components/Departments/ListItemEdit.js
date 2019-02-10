@@ -1,19 +1,22 @@
 import React, { Component } from 'react'
 
 class ListItemEdit extends Component {
-  
-  state = {
-    list: [],
-    hidenFields: true,
-    inputText: '',
-    currentItem: ''
+  constructor(){
+    super()
+    this.state = {
+      list: [],
+      hidenFields: true,
+      inputText: '',
+      currentItem: ''
+    }
   }
+
 
   componentDidMount() {
     this.setState({list: this.props.list})
   }
 
-  onChange = e => {
+  onChange(e){
     e.preventDefault();
     const value = e.target.value;
     const { currentItem, list } = this.state;
@@ -27,7 +30,7 @@ class ListItemEdit extends Component {
     });
   }
 
-  onclickItem = (item) => {
+  onclickItem(item){
     this.setState({
       hidenFields: false,
       inputText: item,
@@ -35,7 +38,7 @@ class ListItemEdit extends Component {
     });
   }
 
-  onclickButton = e => {
+  onclickButton (e) {
     e.preventDefault();
     this.setState({
       hidenFields: true,
