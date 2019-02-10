@@ -21,8 +21,13 @@ Our first goal to create a flexible set of components, that will became a shoppi
 - [ ] should work with our List module, from gs/grocery-component repo
 - [ ] each set of components can have a separated component, that will used only for displaying at Example-like pages.
 Right now we have one Example page at our shoplist-template repo but it's hard to navigate
-
-
+- [ ] Bitsrc.io, and preview of components...
+- [ ] eslint and fix!
+- [ ] clean up Examples
+- [ ] reaplace delete icon with antd
+ - [ ] replace screens with views
+  - [ ] move stuff from shoplist template from screens, that related to components from examples
+  - [ small clean project with just react - components and antd]
 
 https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/SortableList
 
