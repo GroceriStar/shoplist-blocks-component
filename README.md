@@ -5,11 +5,24 @@ Main goal is to separate development process and have a separated place, where w
 
 Our first goal to create a flexible set of components, that will became a shopping list page, that will display our grocery list data.
 
-- [ ] https://blog.bitsrc.io/tiny-components-what-can-go-wrong-d6aa42d71370
-- [ ] move to this repository all components from https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/Ingredient
+- [x] https://blog.bitsrc.io/tiny-components-what-can-go-wrong-d6aa42d71370
+- [x] move to this repository all components from https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/Ingredient
+
+
+- [ ] should we keep all of these components inside of the "Ingredient" folder? I don't think so...
+- [ ] clean up our components from groceristar fetch stuff
+- [ ] add some routers stuff here...
+- [ ] replace paths for imports.....
+- [ ] replace shortid with uuid
+- [ ] basic clean up for this components
+- [ ] get rid of gs-fetch as part of this code
+- [ ] install all necessary modules from shop-list in order to make everyhing work. like react-dnd
+
 - [ ] should work with our List module, from gs/grocery-component repo
 - [ ] each set of components can have a separated component, that will used only for displaying at Example-like pages.
 Right now we have one Example page at our shoplist-template repo but it's hard to navigate
+
+
 
 https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/SortableList
 

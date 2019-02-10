@@ -5,6 +5,7 @@ import Checkbox from "../../components/Ingredient/Checkbox";
 import DeleteLink     from "../../components/Ingredient/DeleteLink";
 import shortid from "shortid";
 import deleteIcon from './waste-bin.png'
+
 class ListCheckboxDeleteIcon extends Component {
 
   render() {

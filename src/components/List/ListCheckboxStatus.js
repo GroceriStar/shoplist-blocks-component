@@ -6,11 +6,11 @@ import shortid from "shortid";
 class ListCheckboxStatus extends React.Component {
   constructor(){
     super();
-    this.state={
+    this.state = {
       status:[]
     }
 
-    this.onAddItem = this.onAddItem.bind(this);
+    this.onAddItem    = this.onAddItem.bind(this);
     this.onDeleteItem = this.onDeleteItem.bind(this);
   }
 
@@ -34,13 +34,15 @@ class ListCheckboxStatus extends React.Component {
     return (
       <ul style = {{"list-style-type": "none"}}>
           {this.props.data.map(
-            (item, index) =>(
-          <li id={shortid.generate()}>
-            <Checkbox name={item} onAddItem={this.onAddItem}
-                                  onDeleteItem={this.onDeleteItem}>
-              {item}
-            </Checkbox>
-         </li>
+            (item, index) => (
+              <li id={shortid.generate()}>
+                <Checkbox
+                  name={item} 
+                  onAddItem={this.onAddItem}
+                  onDeleteItem={this.onDeleteItem}>
+                  {item}
+                </Checkbox>
+             </li>
           ))}
       </ul>
     );
