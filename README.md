@@ -28,6 +28,10 @@ Right now we have one Example page at our shoplist-template repo but it's hard t
  - [ ] replace screens with views
   - [ ] move stuff from shoplist template from screens, that related to components from examples
   - [ small clean project with just react - components and antd]
+- fix shopping list template project
+
+use https://github.com/standard/standard
+
 
 https://github.com/GroceriStar/react-shopping-list-template/tree/master/src/components/SortableList
 
