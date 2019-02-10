@@ -1,13 +1,3 @@
-// import DownloadPDFLink   from '~/DownloadPDFLink/DownloadPDFLink';
-//
-// import GeneratePDFButton from '~/GeneratePDFButton/GeneratePDFButton';
-//
-// import DocumentLayouts    from '~/DocumentLayout/DocumentLayouts';
-//
-// import RenderLists1       from '~/RenderLists/RenderLists1';
-// import RenderLists2       from '~/RenderLists/RenderLists2';
-// import RenderLists3       from '~/RenderLists/RenderLists3';
-// import RenderLists4       from '~/RenderLists/RenderLists4';
 import SimpleText     from "~/Ingredient/SimpleText";
 import Checkbox       from "~/Ingredient/Checkbox";
 import DeleteLink     from "~/Ingredient/DeleteLink";
@@ -25,6 +15,7 @@ import Form1          from "~/Ingredient/Form/Form1";
 import Form2          from "~/Ingredient/Form/Form2";
 import Form3          from "~/Ingredient/Form/Form3";
 import SortableList   from "~/SortableList/SortableList";
+
 import Card   from "~/SortableList/Card";
 
 import Title          from "~/Departments/Title";
