@@ -20,8 +20,8 @@ import Form3          from "~/Ingredient/Form/Form3";
 import SortableList   from "~/SortableList/SortableList";
 
 
-import Title          from "@v/Departments/Title";
-import AutoComplete   from "@v/Departments/AutoComplete";
+import Title            from "@v/Departments/Title";
+import AutoComplete     from "@v/Departments/AutoComplete";
 import AntdAutoComplete from "@v/Departments/AntdAutoComplete";
 
 import ListItemLink   from "@v/Departments/ListItemLink";
@@ -29,12 +29,12 @@ import ListItemEdit   from "@v/Departments/ListItemEdit";
 import ListItemDelete from "@v/Departments/ListItemDelete";
 
 import IngredientsList from "@v/List/IngredientsList";
-import ListCheckbox   from "@v/List/ListCheckbox";
+import ListCheckbox    from "@v/List/ListCheckbox";
 import ListCheckboxDeleteLink   from "@v/List/ListCheckboxDeleteLink";
 import ListCheckboxDeleteIcon   from "@v/List/ListCheckboxDeleteIcon";
 import ListCheckboxStatus   from "@v/List/ListCheckboxStatus";
-import List3Links   from "@v/List/List3Links";
-import ListLayouts   from "@v/List/ListLayouts";
+import List3Links           from "@v/List/List3Links";
+import ListLayouts          from "@v/List/ListLayouts";
 
 
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import _ from 'lodash';
 
-import { getDepartments } from "../../selectors/selector.js";
+import { getDepartments } from "/selector";
 
 class Departments extends Component {
 

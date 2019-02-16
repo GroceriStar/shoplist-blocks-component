@@ -18,24 +18,26 @@ import SortableList   from "~/SortableList/SortableList";
 
 import Card           from "~/SortableList/Card";
 
-import Title          from "~/Departments/Title";
-import AutoComplete   from "~/Departments/AutoComplete";
-import AntdAutoComplete from "~/Departments/AntdAutoComplete";
 
-import ListItemLink     from "~/Departments/ListItemLink";
-import ListItemEdit     from "~/Departments/ListItemEdit";
-import ListItemDelete   from "~/Departments/ListItemDelete";
-import DepartmentRouter from "~/Departments/DepartmentRouter";
-import Departments      from "~/Departments/Departments";
+// views
+import Title            from "@v/Departments/Title";
+import AutoComplete     from "@v/Departments/AutoComplete";
+import AntdAutoComplete from "@v/Departments/AntdAutoComplete";
 
-import List from "~/List/List";
-import IngredientsList from "~/List/IngredientsList";
-import ListCheckbox    from "~/List/ListCheckbox";
-import ListCheckboxDeleteLink   from "~/List/ListCheckboxDeleteLink";
-import ListCheckboxDeleteIcon   from "~/List/ListCheckboxDeleteIcon";
-import ListCheckboxStatus       from "~/List/ListCheckboxStatus";
-import List3Links    from "~/List/List3Links";
-import ListLayouts   from "~/List/ListLayouts";
+import ListItemLink     from "@v/Departments/ListItemLink";
+import ListItemEdit     from "@v/Departments/ListItemEdit";
+import ListItemDelete   from "@v/Departments/ListItemDelete";
+import DepartmentRouter from "@v/Departments/DepartmentRouter";
+import Departments      from "@v/Departments/Departments";
+
+import List from "@v/List/List";
+import IngredientsList from "@v/List/IngredientsList";
+import ListCheckbox    from "@v/List/ListCheckbox";
+import ListCheckboxDeleteLink   from "@v/List/ListCheckboxDeleteLink";
+import ListCheckboxDeleteIcon   from "@v/List/ListCheckboxDeleteIcon";
+import ListCheckboxStatus       from "@v/List/ListCheckboxStatus";
+import List3Links    from "@v/List/List3Links";
+import ListLayouts   from "@v/List/ListLayouts";
 
 
 import ExampleView        from '@v/Example/ExampleView';

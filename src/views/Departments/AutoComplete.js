@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
  class AutoComplete extends Component {
+   
   constructor (props) {
     super(props);
     this.data = this.props.data || [];
