@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Checkbox from "~/Ingredient/Checkbox";
 import shortid  from "shortid";
+
 import ListItemDelete from "@v/Departments/ListItemDelete";
 import ListItemEdit   from "@v/Departments/ListItemEdit";
 

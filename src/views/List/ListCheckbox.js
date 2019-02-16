@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Checkbox from "~/Ingredient/Checkbox";
-import shortid from "shortid";
+import shortid  from "shortid";
 
 class ListCheckbox extends Component {
 

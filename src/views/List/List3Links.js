@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import _        from 'lodash';
-import Checkbox from "~/Ingredient/Checkbox";
-import shortid from "shortid";
 import { Link } from 'react-router-dom';
+
+import Checkbox from "~/Ingredient/Checkbox";
+import shortid  from "shortid";
+
 
 class List3Links extends Component {
   constructor(props){

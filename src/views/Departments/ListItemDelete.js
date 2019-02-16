@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
 
 export default class ListItemDelete extends Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      list: this.props.list
-    }
+  
+  state = {
+    list: this.props.list
   }
 
-
-  onClick(item){
+  onClick = (item) => {
     const newList = [...this.state.list];
     const index = newList.indexOf(item);
     newList.splice(index, 1);

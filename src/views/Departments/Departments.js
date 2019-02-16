@@ -7,14 +7,12 @@ import _ from 'lodash';
 import { getDepartments } from "../../selectors/selector.js";
 
 class Departments extends Component {
-constructor(props){
-  super(props);
-  this.state = {
+
+  state = {
     loaded: false
   }
-}
 
-  componentDidMount() {
+  componentDidMount = () =>  {
     this.departments = getDepartments();
     this.setState({ loaded: true });
 

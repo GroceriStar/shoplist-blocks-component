@@ -10,7 +10,7 @@ import React, { Component } from 'react';
     }
   }
 
-  onChange(e) {
+  onChange = e => {
     e.preventDefault();
     const value = e.target.value;
     let suggestions = [];
@@ -21,7 +21,7 @@ import React, { Component } from 'react';
     this.setState({suggestions, text: value});
   }
 
-  selected(item) {
+  selected = (item) => {
     if (this.props.onSelect != undefined){
       this.props.onSelect(item);
     }
@@ -31,7 +31,7 @@ import React, { Component } from 'react';
     })
   }
 
-  showSuggestions(){
+  showSuggestions = () => {
     const { suggestions } = this.state;
     if (suggestions.length === 0) return null;
     const element = (
