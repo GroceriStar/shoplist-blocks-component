@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import { getIngredients,
+import {
+  getIngredients,
   getGroceryLists,
   getUsers,
   getDepartments,
