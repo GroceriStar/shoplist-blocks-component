@@ -2,50 +2,53 @@ import React, { Component, Fragment } from "react";
 import { DragDropContextProvider } from 'react-dnd'
 import ReactDnDHTML5Backend from "react-dnd-html5-backend";
 
-import SimpleText     from "../../components/Ingredient/SimpleText";
-import Checkbox       from "../../components/Ingredient/Checkbox";
-import DeleteLink     from "../../components/Ingredient/DeleteLink";
-import EditableLabel  from "../../components/Ingredient/EditableLabel";
-import EditLink       from "../../components/Ingredient/EditLink";
-import Id             from "../../components/Ingredient/Id";
-import Label          from "../../components/Ingredient/Label";
-import ListItem       from "../../components/Ingredient/ListItem";
-import Order          from "../../components/Ingredient/Order";
-import Selectbox      from "../../components/Ingredient/Selectbox";
-import Status         from "../../components/Ingredient/Status";
-import TextId         from "../../components/Ingredient/TextId";
-import Form1          from "../../components/Ingredient/Form/Form1";
-import Form2          from "../../components/Ingredient/Form/Form2";
-import Form3          from "../../components/Ingredient/Form/Form3";
-import SortableList   from "../../components/SortableList/SortableList";
+import SimpleText     from "~/Ingredient/SimpleText";
+import Checkbox       from "~/Ingredient/Checkbox";
+import DeleteLink     from "~/Ingredient/DeleteLink";
+import EditableLabel  from "~/Ingredient/EditableLabel";
+import EditLink       from "~/Ingredient/EditLink";
+import Id             from "~/Ingredient/Id";
+import Label          from "~/Ingredient/Label";
+import ListItem       from "~/Ingredient/ListItem";
+import Order          from "~/Ingredient/Order";
+import Selectbox      from "~/Ingredient/Selectbox";
+import Status         from "~/Ingredient/Status";
+import TextId         from "~/Ingredient/TextId";
+import Form1          from "~/Ingredient/Form/Form1";
+import Form2          from "~/Ingredient/Form/Form2";
+import Form3          from "~/Ingredient/Form/Form3";
+import SortableList   from "~/SortableList/SortableList";
 
 
-import Title          from "../../screens/Departments/Title";
-import AutoComplete   from "../../screens/Departments/AutoComplete";
-import AntdAutoComplete from "../../screens/Departments/AntdAutoComplete";
+import Title            from "@v/Departments/Title";
+import AutoComplete     from "@v/Departments/AutoComplete";
+import AntdAutoComplete from "@v/Departments/AntdAutoComplete";
 
-import ListItemLink   from "../../screens/Departments/ListItemLink";
-import ListItemEdit   from "../../screens/Departments/ListItemEdit";
-import ListItemDelete from "../../screens/Departments/ListItemDelete";
+import ListItemLink   from "@v/Departments/ListItemLink";
+import ListItemEdit   from "@v/Departments/ListItemEdit";
+import ListItemDelete from "@v/Departments/ListItemDelete";
 
-import IngredientsList from "../../screens/List/IngredientsList";
-import ListCheckbox   from "../../screens/List/ListCheckbox";
-import ListCheckboxDeleteLink   from "../../screens/List/ListCheckboxDeleteLink";
-import ListCheckboxDeleteIcon   from "../../screens/List/ListCheckboxDeleteIcon";
-import ListCheckboxStatus   from "../../screens/List/ListCheckboxStatus";
-import List3Links   from "../../screens/List/List3Links";
-import ListLayouts   from "../../screens/List/ListLayouts";
+import IngredientsList from "@v/List/IngredientsList";
+import ListCheckbox    from "@v/List/ListCheckbox";
+import ListCheckboxDeleteLink   from "@v/List/ListCheckboxDeleteLink";
+import ListCheckboxDeleteIcon   from "@v/List/ListCheckboxDeleteIcon";
+import ListCheckboxStatus       from "@v/List/ListCheckboxStatus";
+import List3Links    from "@v/List/List3Links";
+import ListLayouts   from "@v/List/ListLayouts";
 
-import { getAllIngredients, getDepartments } from "../../selectors/selector";
+
+import { getAllIngredients, getDepartments } from "/selector";
 
 import { DefaultList } from "@groceristar/grocery-component";
 
 class Examples extends Component {
+
   render() {
     var id = 12345;
     var id1 = 1234;
     let items = ["apple", "milk"];
     var text1 = 'Car';
+
     const ingredientsList =
     [ { key: '20c38e50-1ffb-11e9-ad6b-31f0d6717595',
     name: 'Asparagus',

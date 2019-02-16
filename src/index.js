@@ -37,6 +37,11 @@ import ListCheckboxStatus   from "~/List/ListCheckboxStatus";
 import List3Links   from "~/List/List3Links";
 import ListLayouts   from "~/List/ListLayouts";
 
+
+import ExampleView        from '@v/Example/ExampleView';
+import EditLinkRedirect   from '@v/Example/EditLinkRedirect'
+import DeleteLinkRedirect from '@v/Example/DeleteLinkRedirect'
+
 export {
   //Ingredient
   Checkbox,
@@ -79,6 +84,12 @@ export {
 
   // Sortable Lists
   Card,
-  SortableList
+  SortableList,
+
+
+  //Example
+  ExampleView,
+  EditLinkRedirect ,
+  DeleteLinkRedirect,
 
 }

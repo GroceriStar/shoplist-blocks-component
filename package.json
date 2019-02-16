@@ -42,6 +42,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
     "@groceristar/groceristar-fetch": "^1.1.61",
     "@groceristar/grocery-component": "^1.0.6",
     "antd": "^3.13.2",
