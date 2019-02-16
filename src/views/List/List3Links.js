@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import _        from 'lodash';
-import Checkbox from "../../components/Ingredient/Checkbox";
+import Checkbox from "~/Ingredient/Checkbox";
 import shortid from "shortid";
 import { Link } from 'react-router-dom';
 

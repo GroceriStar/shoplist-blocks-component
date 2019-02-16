@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Checkbox from "../../components/Ingredient/Checkbox";
-import shortid from "shortid";
-import ListItemDelete from "../Departments/ListItemDelete";
-import ListItemEdit from "../Departments/ListItemEdit";
+import Checkbox from "~/Ingredient/Checkbox";
+import shortid  from "shortid";
+import ListItemDelete from "@v/Departments/ListItemDelete";
+import ListItemEdit   from "@v/Departments/ListItemEdit";
 
 class ListLayouts extends Component {
 

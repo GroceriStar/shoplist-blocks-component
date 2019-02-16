@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import Checkbox from "../../components/Ingredient/Checkbox";
-import DeleteLink     from "../../components/Ingredient/DeleteLink";
+import Checkbox from "~/Ingredient/Checkbox";
+import DeleteLink     from "~/Ingredient/DeleteLink";
 import shortid from "shortid";
 import deleteIcon from './waste-bin.png'
 class ListCheckboxDeleteIcon extends Component {

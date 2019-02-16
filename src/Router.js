@@ -6,9 +6,9 @@ import {
   Route
 } from 'react-router-dom';
 
-import Examples    from './views/Examples/Examples';
-import DeleteLink  from './views/Examples/DeleteLink';
-import EditLink    from './views/Examples/EditLink';
+import Examples    from '@v/Examples/Examples';
+import DeleteLink  from '@v/Examples/DeleteLink';
+import EditLink    from '@v/Examples/EditLink';
 
 
 
@@ -18,7 +18,8 @@ class ExampleRouter extends Component {
     console.log("this is");
     return (
         <Switch>
-        <Route path='/examples'    component={Examples} exact />
+          <Route path='/'    component={Examples} exact />
+          <Route path='/examples'    component={Examples} exact />
           <Route path='/examples/delete/:id' component={DeleteLink} />
           <Route path='/examples/edit/:id' component={EditLink} />
       </Switch>

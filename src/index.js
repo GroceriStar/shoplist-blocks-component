@@ -16,7 +16,7 @@ import Form2          from "~/Ingredient/Form/Form2";
 import Form3          from "~/Ingredient/Form/Form3";
 import SortableList   from "~/SortableList/SortableList";
 
-import Card   from "~/SortableList/Card";
+import Card           from "~/SortableList/Card";
 
 import Title          from "~/Departments/Title";
 import AutoComplete   from "~/Departments/AutoComplete";

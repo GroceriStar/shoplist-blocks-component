@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ListItem from "../../components/Ingredient/ListItem";
+import ListItem from "~/Ingredient/ListItem";
 
 class IngredientsList extends Component {
   getIngredientsName(ingredients){
