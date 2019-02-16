@@ -1,5 +1,6 @@
 
 class ShoppingItemWrapper extends Component {
+  
   changeMode(){
     const modes = [
       'unpurchased',

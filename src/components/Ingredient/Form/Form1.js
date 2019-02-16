@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Selectbox            from "../Selectbox";
-import { getDepartments }   from "../../../selectors/selector";
+import Selectbox            from "~/Ingredient/Selectbox";
+import { getDepartments }   from "/selector";
 
 class Form1 extends Component {
 

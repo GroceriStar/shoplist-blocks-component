@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import ListItem   from "../ListItem";
-import Selectbox  from "../Selectbox";
-import { getIngredients, getGroceryByName }   from "../../../selectors/selector";
+import ListItem   from "~/Ingredient/ListItem";
+import Selectbox  from "~/Ingredient/Selectbox";
+import { getIngredients, getGroceryByName }   from "/selector";
 
 class Form2 extends Component {
   constructor(props){
@@ -43,7 +43,7 @@ class Form2 extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-        
+
           <Selectbox
             selectedValue={this.state.selectedIngredient}
             onSelect={this.handleSelectedIngredient}
@@ -53,7 +53,7 @@ class Form2 extends Component {
             selectedValue = {this.state.selectedDepartment}
             onSelect={this.handleSelectedDepartment}
             data={getGroceryByName(this.state.groceryName)[0].departments}/>
-            
+
            <ListItem data= {this.state.ingredientsList}/>
            <input type="Submit" />
         </form>
