@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 import ListItem from "~/Ingredient/ListItem";
 
 class IngredientsList extends Component {
+
   getIngredientsName(ingredients){
     return ingredients.map(item =>
-    item.name
-  )
+      item.name
+    )
   }
 
   render() {

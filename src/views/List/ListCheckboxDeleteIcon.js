@@ -11,12 +11,12 @@ import deleteIcon from '@v/List/waste-bin.png'
 class ListCheckboxDeleteIcon extends Component {
 
   render() {
-    const Style = {
-      "backgroundImage": 'url('+ deleteIcon +')',
-      float: 'left',
-  width: '24px',
-  height: '24px',
-          }
+    // const Style = {
+    //   "backgroundImage": 'url('+ deleteIcon +')',
+    //   float: 'left',
+    //   width: '24px',
+    //   height: '24px',
+    // }
   // backgroundImage: 'url(' + imgUrl + ')',
     return (
       <ul style = {{"list-style-type": "none"}}>
@@ -27,10 +27,8 @@ class ListCheckboxDeleteIcon extends Component {
             <Checkbox name={item}>
                 {item}
                   <DeleteLink id={index} url={"/examples/delete/" + index}>
-                    <div class="btn">
-                      <span class="icon" style={Style}>
-                      </span>
-                    </div>
+                    <Icon type="delete" />
+
                   </DeleteLink>
             </Checkbox>
           </li>

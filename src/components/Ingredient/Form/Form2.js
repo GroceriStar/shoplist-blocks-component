@@ -5,8 +5,10 @@ import Selectbox  from "~/Ingredient/Selectbox";
 import { getIngredients, getGroceryByName }   from "/selector";
 
 class Form2 extends Component {
+
   constructor(props){
     super(props);
+    //@TODO it should work with fetch stuff
     this.state = {
       ingredientsList: [],
       selectedIngredient: "Asparagus",

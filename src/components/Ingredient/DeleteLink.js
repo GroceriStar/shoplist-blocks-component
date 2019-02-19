@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+//@TODO replace with uuid
 import shortid  from "shortid";
 
 class DeleteLink extends Component {
@@ -31,6 +32,7 @@ class DeleteLink extends Component {
             to={this.state.url}
             >
               {this.state.textLink}
+            {/*<Icon type="delete" />*/}
           </Link>
         );
     }

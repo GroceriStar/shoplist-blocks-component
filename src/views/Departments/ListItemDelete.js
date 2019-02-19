@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class ListItemDelete extends Component {
-  
+
   state = {
     list: this.props.list
   }
@@ -13,8 +13,10 @@ export default class ListItemDelete extends Component {
     this.setState({list: newList});
   }
 
+  // @TODO onclick simplify
   render() {
     const { list } = this.state;
+    
     return (
       <div>
         <ul>

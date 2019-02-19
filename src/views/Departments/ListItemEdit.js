@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class ListItemEdit extends Component {
-  
+
   state = {
     list: [],
     hidenFields: true,
@@ -48,11 +48,13 @@ class ListItemEdit extends Component {
     const { list, hidenFields, inputText } = this.state;
     return (
       <div>
-        <input  type="text" hidden={hidenFields} onChange={this.onChange} value={inputText} />
+        <input  type="text" hidden={hidenFields}
+          onChange={this.onChange} value={inputText} />
         <button onClick={this.onclickButton} hidden={hidenFields}>Hide</button>
         <ul>
           {list.map(item => (
-            <li id={item} style={{cursor: 'pointer'}} onClick={() => this.onclickItem(item)}>
+            <li id={item} style={{cursor: 'pointer'}}
+              onClick={() => this.onclickItem(item)}>
               {item}
             </li>
           ))}

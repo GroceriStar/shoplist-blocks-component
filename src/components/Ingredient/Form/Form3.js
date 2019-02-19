@@ -2,12 +2,14 @@ import React, { Component } from "react";
 
 import ListItem       from "~/Ingredient/ListItem";
 import Selectbox      from "~/Ingredient/Selectbox";
+
+import AutoComplete   from "@v/Departments/AutoComplete";
 import {
   getIngredients,
   getGroceryByName,
   getListOfIngredients
 }  from "/selector";
-import AutoComplete   from "@v/Departments/AutoComplete";
+
 
 class Form3 extends Component {
   constructor(props){

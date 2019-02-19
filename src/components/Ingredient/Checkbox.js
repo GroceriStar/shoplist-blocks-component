@@ -22,7 +22,8 @@ class Checkbox extends Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  componentWillReceiveProps({isChecked}) {
+  componentWillReceiveProps({ isChecked }) {
+    //@TODO bad and long line
     if (isChecked != undefined & isChecked != this.state.checked){
     this.setState({
       ...this.state,
@@ -34,8 +35,9 @@ class Checkbox extends Component {
       })
     }
   }
-  
+
   handleChange(){
+      //@TODO it's bad too
        if(this.props.onAddItem != undefined &
         this.props.onDeleteItem != undefined)
        if(!this.state.checked ){

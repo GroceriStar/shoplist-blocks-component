@@ -51,6 +51,7 @@ class SortableList extends React.Component {
   constructor(props) {
     super(props);
     this.moveCard = this.moveCard.bind(this);
+    //@TODO replace with fetch
     this.state = {
       cards: [{
           id: '--0',

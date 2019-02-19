@@ -17,7 +17,8 @@ class ListItemLink extends Component {
       <div>
         {item.name}
       <ul>
-          {item.subList.map(item => <Link onClick={this.onClick} to={`/info/${item}`}><li key={item}>{ item }</li></Link>)}
+          {item.subList.map(item => <Link onClick={this.onClick}
+            to={`/info/${item}`}><li key={item}>{ item }</li></Link>)}
       </ul>
     </div>
     )
@@ -26,7 +27,9 @@ class ListItemLink extends Component {
     const { list } = this.props
     return (
       <ul>
-        {list.map(item => <Link onClick={this.onClick} to={`/info/${item.name}`}><li key={item.name}>{  this.getSubItem(item) }</li></Link>)}
+        {list.map(item => <Link onClick={this.onClick}
+          to={`/info/${item.name}`}>
+          <li key={item.name}>{  this.getSubItem(item) }</li></Link>)}
       </ul>
     )
   }

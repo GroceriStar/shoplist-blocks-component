@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { AutoComplete } from 'antd';
+
 import 'antd/dist/antd.css';
 
 class AntdAutoComplete extends Component {
