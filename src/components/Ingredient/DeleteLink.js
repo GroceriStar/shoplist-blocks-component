@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import shortid from "shortid";
+
+import shortid  from "shortid";
 
 class DeleteLink extends Component {
   constructor(props){
