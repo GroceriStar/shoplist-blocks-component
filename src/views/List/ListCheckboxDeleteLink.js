@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 
 import Checkbox from "~/Ingredient/Checkbox";
 import DeleteLink     from "~/Ingredient/DeleteLink";
+
+import { Icon } from 'antd';
+import "antd/dist/antd.css";
+
+//@TODO replace
 import shortid from "shortid";
 
 class ListCheckboxDeleteLink extends Component {
