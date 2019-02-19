@@ -22,6 +22,7 @@
     "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.1.0",
     "babel-plugin-module-resolver": "^3.1.1",
@@ -32,10 +33,10 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "regenerator-runtime": "^0.13.1",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "standard": "^12.0.1"
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.3.3",
     "@groceristar/groceristar-fetch": "^1.1.61",
     "@groceristar/grocery-component": "^1.0.6",
     "antd": "^3.13.2",
@@ -45,8 +46,7 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "reactstrap": "^7.1.0",
-    "shortid": "^2.2.14",
-    "standard": "^12.0.1",
+    "shortid": "^2.2.14",    
     "uuid": "^3.3.2"
   },
   "peerDependencies": {
