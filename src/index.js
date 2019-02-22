@@ -18,6 +18,9 @@ import SortableList   from "~/SortableList/SortableList";
 
 import Card           from "~/SortableList/Card";
 
+import RadioPanelWrapper from '~/RadioPanelWrapper'
+
+
 
 // views
 import Title            from "@v/Departments/Title";
@@ -44,6 +47,8 @@ import ExampleView        from '@v/Example/ExampleView';
 import EditLinkRedirect   from '@v/Example/EditLinkRedirect'
 import DeleteLinkRedirect from '@v/Example/DeleteLinkRedirect'
 
+
+
 export {
   //Ingredient
   Checkbox,
@@ -59,6 +64,9 @@ export {
   SimpleText,
   Status,
   TextId,
+
+
+  RadioPanelWrapper,
 
   // Form
   Form1,
