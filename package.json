@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/shoplist-blocks-component",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "module to use blocks that are part of shoplist between projects",
   "main": "lib/index.js",
   "repository": "https://github.com/GroceriStar/shoplist-blocks-component",
@@ -46,7 +46,7 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "reactstrap": "^7.1.0",
-    "shortid": "^2.2.14",    
+    "shortid": "^2.2.14",
     "uuid": "^3.3.2"
   },
   "peerDependencies": {
