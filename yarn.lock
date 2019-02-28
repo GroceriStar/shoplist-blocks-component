@@ -666,9 +666,9 @@
     uuid "3.3.2"
 
 "@groceristar/grocery-component@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@groceristar/grocery-component/-/grocery-component-1.0.6.tgz#ebc527728815c7b5b51e4688a71d99075f94940d"
-  integrity sha512-oxpVG5Mr9DVIkAuVRVX+BjK4BCtYU/zkoiSXI63z0UWz+aKIJi58rSbazcH6PClswnfMHTwYRIX6w+zRKouXTA==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@groceristar/grocery-component/-/grocery-component-1.0.7.tgz#d7dd48d262da74ab4f1c0613b001f614205075f1"
+  integrity sha512-liBfuy5EtSIbS2BkqOY7cCrrnoKpoMzCm0F1dmqroHLfZ54LtPlYzmSm47IGc2GOO6JKzhesJTln52L0mqJyaA==
   dependencies:
     uuid "^3.3.2"
 
@@ -5065,7 +5065,7 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
 
-rimraf@2.6.3, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3, rimraf@~2.6.2:
+rimraf@2.6.3, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@~2.6.2:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
   dependencies:
