@@ -10,12 +10,14 @@ import Order          from "~/Ingredient/Order";
 import Selectbox      from "~/Ingredient/Selectbox";
 import Status         from "~/Ingredient/Status";
 import TextId         from "~/Ingredient/TextId";
-import Item         from "~/Ingredient/Item";
+import Item           from "~/Ingredient/Item";
 import Form1          from "~/Ingredient/Form/Form1";
 import Form2          from "~/Ingredient/Form/Form2";
 import Form3          from "~/Ingredient/Form/Form3";
 import SortableList   from "~/SortableList/SortableList";
 
+
+//@TODO maybe later try to connect other cards?
 import Card           from "~/SortableList/Card";
 
 import RadioPanelWrapper from '~/RadioPanelWrapper'
