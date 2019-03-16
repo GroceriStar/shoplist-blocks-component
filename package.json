@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/shoplist-blocks-component",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "module to use blocks that are part of shoplist between projects",
   "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/shoplist-blocks-component",
