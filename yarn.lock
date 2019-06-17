@@ -1943,15 +1943,6 @@ discontinuous-range@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/discontinuous-range/-/discontinuous-range-1.0.0.tgz#e38331f0844bba49b9a9cb71c771585aab1bc65a"
 
-dnd-core@^7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/dnd-core/-/dnd-core-7.5.0.tgz#5ab1ca698059beea456436ec35d86ef0ea3ebb7e"
-  integrity sha512-Xzu5mFyjgvFzA7pIfuAboNZv7ro3OzoexQho/tMc2i2xMEo+jrDKCqulUyQQ5Z3Gxq6oCRdc23kIMoH47y7E9w==
-  dependencies:
-    asap "^2.0.6"
-    invariant "^2.2.4"
-    redux "^4.0.1"
-
 dnd-core@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/dnd-core/-/dnd-core-8.0.0.tgz#0e2c8b722809ae50ca47a5d4b80e7ed753decb25"
@@ -5050,12 +5041,12 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dnd-html5-backend@^7.0.2:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/react-dnd-html5-backend/-/react-dnd-html5-backend-7.5.0.tgz#85313e5a7375b703dbda6449f603f533369471f5"
-  integrity sha512-PoKEYYsLCpV/DbtXhXTG4SAkweOwrAGDo7Pf/4M3X8/uFlWwjx6ojONFcFCa1tKBsvcHxUe7WZQ9TqUM4hLLTA==
+react-dnd-html5-backend@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-dnd-html5-backend/-/react-dnd-html5-backend-8.0.0.tgz#918058134fc9222524c3ec9b6563821dee010db4"
+  integrity sha512-/he7ZczwhBezz2v7IHuie0jYMBLgiwSM4CLbZcanzotfppWVnOlVC21/rcrMts6SLhWl6fXA5tZ6EwUWugBAiA==
   dependencies:
-    dnd-core "^7.5.0"
+    dnd-core "^8.0.0"
 
 react-dnd@^8.0.0:
   version "8.0.0"
