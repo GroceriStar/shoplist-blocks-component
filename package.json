@@ -16,7 +16,7 @@
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
     "lint": "eslint src",
     "zprepublish": "yarn clean && yarn build",
-    "test": "jest",
+    "test": "CI=true && jest",
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "code-fix": "standard --fix"
