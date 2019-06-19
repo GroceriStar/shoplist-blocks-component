@@ -4,7 +4,9 @@ node_js:
   - "node"
 
 #before_script: npm run lint
-#script: npm run test
+script: 
+  - npm run test
+  - npm run test:cover
 #after_success: npm run coveralls
 
 branches:
