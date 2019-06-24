@@ -2052,10 +2052,10 @@ discontinuous-range@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/discontinuous-range/-/discontinuous-range-1.0.0.tgz#e38331f0844bba49b9a9cb71c771585aab1bc65a"
 
-dnd-core@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/dnd-core/-/dnd-core-8.0.2.tgz#9d5a47a38548761439274ea435e4905801e5c1c6"
-  integrity sha512-nJle3+NThoqrL6lXx2nflmtVWMKpzmrTxNDOfccGYtDqHnLukylmFI0TTURnv6gBjlk/sm7uQJVxSKO0Y2lK1g==
+dnd-core@^8.0.2, dnd-core@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/dnd-core/-/dnd-core-8.0.3.tgz#96fdaae0f53ca86996ed50075000ebd758169682"
+  integrity sha512-jffgwAMsv5g6TRDmvjBW0EUntVXO8+X184zBRFnOmCfhFU8EV7/Aq+wPpJCeRAMge8fMYJGrjlm1xeH0wMrHYQ==
   dependencies:
     "@types/asap" "^2.0.0"
     "@types/invariant" "^2.2.29"
@@ -5229,11 +5229,11 @@ rc@^1.2.7:
     strip-json-comments "~2.0.1"
 
 react-dnd-html5-backend@^8.0.0:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/react-dnd-html5-backend/-/react-dnd-html5-backend-8.0.2.tgz#77da15edd61a90c559853d6267a131449733d997"
-  integrity sha512-9Y5Yn6lBi9kbMbKMnHWiN6QqFMBe/BC6dfxmYpSk+IOoMf0342FjxqzOEjgGWezl9wndeBLasl9neYhoxTAnWg==
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/react-dnd-html5-backend/-/react-dnd-html5-backend-8.0.3.tgz#8f030444c7b79fd022f4ebd23ab5d20ed6ad248e"
+  integrity sha512-TOspnpF4x5AWVrYjh1G+ZllDPSSTTzS1nd8SUWK1N8OehZs5SngCAA6PjPWIe3vqGUwMBOiEPFWsuMyEqVWGAA==
   dependencies:
-    dnd-core "^8.0.2"
+    dnd-core "^8.0.3"
 
 react-dnd@^8.0.0:
   version "8.0.2"
