@@ -30,10 +30,10 @@
   resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-2.1.0.tgz#06b8ea9a02cbe331d523a20453fa5ee224328b11"
   integrity sha512-o2q2GeamZ99dQEIsuls3zGkeAlUH/z9pJt9Kt3zrTdbFQlJtyFH2NjPXobcExINsg/2cYd8zvLcoSQ69UBvOeg==
 
-"@babel/cli@7.4.3":
-  version "7.4.3"
-  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.4.3.tgz#353048551306ff42e5855b788b6ccd9477289774"
-  integrity sha512-cbC5H9iTDV9H7sMxK5rUm18UbdVPNTPqgdzmQAkOUP3YLysgDWLZaysVAfylK49rgTlzL01a6tXyq9rCb3yLhQ==
+"@babel/cli@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.5.0.tgz#f403c930692e28ecfa3bf02a9e7562b474f38271"
+  integrity sha512-qNH55fWbKrEsCwID+Qc/3JDPnsSGpIIiMDbppnR8Z6PxLAqMQCFNqBctkIkBrMH49Nx+qqVTrHRWUR+ho2k+qQ==
   dependencies:
     commander "^2.8.1"
     convert-source-map "^1.1.0"
