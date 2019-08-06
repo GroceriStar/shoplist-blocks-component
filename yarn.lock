@@ -987,6 +987,11 @@
   resolved "https://registry.yarnpkg.com/@types/invariant/-/invariant-2.2.29.tgz#aa845204cd0a289f65d47e0de63a6a815e30cc66"
   integrity sha512-lRVw09gOvgviOfeUrKc/pmTiRZ7g7oDOU6OAutyuSHpm1/o2RaBQvRhgK8QEdu+FFuw/wnWb29A/iuxv9i8OpQ==
 
+"@types/invariant@^2.2.30":
+  version "2.2.30"
+  resolved "https://registry.yarnpkg.com/@types/invariant/-/invariant-2.2.30.tgz#20efa342807606ada5483731a8137cb1561e5fe9"
+  integrity sha512-98fB+yo7imSD2F7PF7GIpELNgtLNgo5wjivu0W5V4jx+KVVJxo6p/qN4zdzSTBWy4/sN3pPyXwnhRSD28QX+ag==
+
 "@types/istanbul-lib-coverage@*":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1999,6 +2004,17 @@ dnd-core@^8.0.2:
   dependencies:
     "@types/asap" "^2.0.0"
     "@types/invariant" "^2.2.29"
+    asap "^2.0.6"
+    invariant "^2.2.4"
+    redux "^4.0.1"
+
+dnd-core@^9.3.4:
+  version "9.3.4"
+  resolved "https://registry.yarnpkg.com/dnd-core/-/dnd-core-9.3.4.tgz#56b5fdc165aa7d102506d3d5a08ec1fa789e0775"
+  integrity sha512-sDzBiGXgpj9bQhs8gtPWFIKMg4WY8ywI9RI81rRAUWI4oNj/Sm/ztjS67UjCvMa+fWoQ2WNIV3U9oDqeBN0+2g==
+  dependencies:
+    "@types/asap" "^2.0.0"
+    "@types/invariant" "^2.2.30"
     asap "^2.0.6"
     invariant "^2.2.4"
     redux "^4.0.1"
@@ -5119,14 +5135,14 @@ react-dnd-html5-backend@^8.0.0:
   dependencies:
     dnd-core "^8.0.2"
 
-react-dnd@^8.0.0:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/react-dnd/-/react-dnd-8.0.2.tgz#e21b4bd2f762ccdc274c042faaf44b25be4922a1"
-  integrity sha512-fBjLXmS4lknSO2FEoCT19A5gl0/s3TETM8Bcs0AJihHdGzhYshVHPQI3GeJKqUHvxI1p0gxarfaCSPhEGJQSng==
+react-dnd@^9.3.4:
+  version "9.3.4"
+  resolved "https://registry.yarnpkg.com/react-dnd/-/react-dnd-9.3.4.tgz#ebab4b5b430b72f3580c058a29298054e1f9d2b8"
+  integrity sha512-UUtyoHFRrryMxVMEGYa3EdZIdibnys/ax7ZRs6CKpETHlnJQOFhHE3rpI+ManvKS0o3MFc1DZ+aoudAFtrOvFA==
   dependencies:
     "@types/hoist-non-react-statics" "^3.3.1"
     "@types/shallowequal" "^1.1.1"
-    dnd-core "^8.0.2"
+    dnd-core "^9.3.4"
     hoist-non-react-statics "^3.3.0"
     shallowequal "^1.1.0"
 
