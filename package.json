@@ -22,7 +22,7 @@
     "code-fix": "standard --fix"
   },
   "devDependencies": {
-    "@babel/cli": "7.4.3",
+    "@babel/cli": "7.6.0",
     "@babel/core": "^7.2.0",
     "@babel/plugin-proposal-class-properties": "^7.3.3",
     "@babel/preset-env": "^7.2.0",
