@@ -47,7 +47,7 @@
     "@groceristar/groceristar-fetch": "^2.1.10",
     "@groceristar/grocery-component": "^1.0.9",
     "antd": "^3.13.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.16",
     "react-dnd": "^8.0.0",
     "react-dnd-html5-backend": "^8.0.0",
     "react-router": "^5.0.0",
